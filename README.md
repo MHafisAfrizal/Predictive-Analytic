@@ -151,7 +151,7 @@ Model dievaluasi menggunakan tiga metrik yang sesuai untuk regresi:
 **Visualisasi**:
 - Plot pentingnya fitur Random Forest disimpan sebagai `pentingnya_fitur_rf.png`, menunjukkan kontribusi fitur seperti `number_inpatient` dan `discharge_disposition_id`. Gambar ini mendukung interpretasi klinis.
 
-![Pentingnya Fitur Random Forest](https://github.com/MHafisAfrizal/Predictive-Analytic/raw/main/feature.png)
+![Fitur Random Forest](https://github.com/MHafisAfrizal/Predictive-Analytic/blob/main/Feature.png)
 
 ## Kesimpulan
 Proyek ini berhasil mengembangkan model regresi untuk memprediksi risiko readmisi pasien diabetes, dengan **XGBoost** sebagai model terbaik (R²: 0.1103, MSE: 0.1098). Model ini menjawab kebutuhan untuk alat prediktif dan memberikan wawasan klinis, meskipun R² rendah menunjukkan keterbatasan dalam menjelaskan varians data. Proyek memenuhi kriteria Dicoding, termasuk:
