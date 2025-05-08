@@ -149,7 +149,7 @@ Model dievaluasi menggunakan tiga metrik yang sesuai untuk regresi:
   - Berhasil; penyetelan meningkatkan R² XGBoost dari konfigurasi default, meskipun peningkatan terbatas oleh kualitas fitur.
 
 **Visualisasi**:
-- Plot pentingnya fitur Random Forest disimpan sebagai `pentingnya_fitur_rf.png`, menunjukkan kontribusi fitur seperti `number_inpatient` dan `discharge_disposition_id`. Gambar ini mendukung interpretasi klinis.
+- Plot pentingnya fitur Random Forest disimpan sebagai `Feature.png`, menunjukkan kontribusi fitur seperti `number_inpatient` dan `discharge_disposition_id`. Gambar ini mendukung interpretasi klinis.
 
 ![Fitur Random Forest](https://github.com/MHafisAfrizal/Predictive-Analytic/blob/main/Feature.png)
 
@@ -158,7 +158,7 @@ Proyek ini berhasil mengembangkan model regresi untuk memprediksi risiko readmis
 - Dataset kuantitatif dengan 5000 sampel.
 - Dokumentasi lengkap dalam notebook dan laporan.
 - Pendekatan regresi dengan tiga model dan penyetelan hiperparameter.
-- Visualisasi lokal (`pentingnya_fitur_rf.png`) dan analisis pentingnya fitur.
+- Visualisasi lokal (`Feature.png`) dan analisis pentingnya fitur.
 
 **Kelemahan**:
 - R² rendah (0.08–0.11) menunjukkan model kurang kuat, mungkin karena fitur terbatas atau kompleksitas data.
